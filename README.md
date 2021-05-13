@@ -1,5 +1,6 @@
 # PROYECTO 2 - TOPICOS DE TELEMATICA
 
+![](https://d3q0kt5yih1b7n.cloudfront.net/organizations/covers/eafit_4487008897.png)
 ## DOCUMENTACIÓN DE LA FASE DE ANÁLISIS Y DISEÑO
 ### SITIO WEB: https://www.reto1toptel.ml
 
