@@ -51,3 +51,22 @@
    | Bastion Host | Máquina desplegada en la zona pública que posee una conexión con las máquinas de la página ubicadas en la zona Privada | Se utilizan dos máquinas AMI para cada zona de Disponibilidad con una IP pública |
    | Manejo del protocolo HTTPS | El manejo consta de la definición de los certificados válidos para la página web | Se designaron los certificados WildCard utilizando CertBot |
    | Certificado WildCard |Es un certificado comodin de clave pública que se puede utilizar con varios subdominios de un dominio | Se solicitó el Certificado Wildcard desde Let's Encrypt por medio de CertBot para el dominio *.reto1toptel.ml 
+   
+   ## 4. Diseño Escalable
+   
+   ### - A. Herramientas utilizadas:
+    
+   - Servidor DNS - CloudFlare y Freenom
+   - CDN - CoudFlare
+   - Balanceador de Cargas - AWS Load Balancer
+   - Base de Datos - AWS RDS
+   - Instacias de servidor Web & Bastion - AWS EC2 AMI Linux 2
+   - Sistema de archivos - AWS EFS
+   - Despliegue automatico para tolerancia a fallos - AWS AutoScaling
+   - Manejo de redes y subredes - AWS VPC & Security Groups
+   - Sistema de Monitoreo - CloudWatch
+
+
+   ### - B. Patrones de Arquitectura:
+   
+   -
