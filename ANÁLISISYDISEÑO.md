@@ -48,6 +48,6 @@
    |------------|-------------|----------------|
    | Redes Privadas | Conjunto de direcciones donde estarán ubicadas las redes Privadas | Se definieron dos conjuntos de direcciones para redes privadas una para la zona de disponiblidad de A (172.31.1.0/24) y otra para B (172.31.3.0/24) |
    | Autenticación de doble factor | Es una herramienta que consta de 2 pasos para loguearse en la página web | Se descargó el PlugIn de WordPress llamado: WP 2FA – Two-factor Authentication for WordPress |
-   | Bastion Host | | |
-   | Manejo del protocolo HTTPS | | |
-   | Certificado WildCard | | |
+   | Bastion Host | Máquina desplegada en la zona pública que posee una conexión con las máquinas de la página ubicadas en la zona Privada | Se utilizan dos máquinas AMI para cada zona de Disponibilidad con una IP pública |
+   | Manejo del protocolo HTTPS | El manejo consta de la definición de los certificados válidos para la página web | Se designaron los certificados WildCard utilizando CertBot |
+   | Certificado WildCard |Es un certificado comodin de clave pública que se puede utilizar con varios subdominios de un dominio | Se solicitó el Certificado Wildcard desde Let's Encrypt por medio de CertBot para el dominio *.reto1toptel.ml 
