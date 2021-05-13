@@ -38,7 +38,16 @@
      
    | Requisito | Descripcion | Implementacion |
    |------------|-------------|----------------|
-   | Tiempo de respuesta | | |
-   | Concurrencia | | |
    | CDN & Caching | Es una plataforma de servidores altamente distribuida que ayuda a minimizar los retrasos en la carga de contenidos de páginas web al reducir la distancia física entre el servidor y el usuario. | Se delegó el manejo de servicios del DNS desde el Freenom hasta el CloudFlare |
    | EFS | Amazon Elastic File System básicamente es un servicio de almacenamiento en la nube proporcionado por Amazon Web Services diseñado para proporcionar almacenamiento escalable, elástico, concurrente con algunas restricciones | Se creó la instancia del servicio EFS de Amazon y se montó a los servidores Vía IP |
+   
+   
+   - Seguridad: 
+ 
+   | Requisito | Descripcion | Implementacion |
+   |------------|-------------|----------------|
+   | Redes Privadas | Conjunto de direcciones donde estarán ubicadas las redes Privadas | Se definieron dos conjuntos de direcciones para redes privadas una para la zona de disponiblidad de A (172.31.1.0/24) y otra para B (172.31.3.0/24) |
+   | Autenticación de doble factor | Es una herramienta que consta de 2 pasos para loguearse en la página web | Se descargó el PlugIn de WordPress llamado: WP 2FA – Two-factor Authentication for WordPress |
+   | Bastion Host | | |
+   | Manejo del protocolo HTTPS | | |
+   | Certificado WildCard | | |
