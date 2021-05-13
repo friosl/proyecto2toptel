@@ -12,13 +12,9 @@
 - Felipe Ríos López - Disponibilidad
 - Juan David Pérez Sotelo - Seguridad
 
-## 3. GitHub: 
-- https://github.com/friosl/proyecto2toptel
+## 3. Requisitos: 
 
-
-## 4. Requisitos: 
-
-### A. Funcionales 
+### -  A. Funcionales 
 Funcionales y No Funcionales  
    | Requisito | Descripcion | Implementacion |
    |------------|-------------|----------------|
