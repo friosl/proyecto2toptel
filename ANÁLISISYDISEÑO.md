@@ -30,7 +30,7 @@
    | Requisito | Descripcion | Implementacion |
    |------------|-------------|----------------|
    | Sistema de monitoreo | Se utilizó CloudWatch para la implementación del sistema de monitoreo y se encarga de recopilar los datos con el cual se revisan los recursos que están corriendo | Se configura la opción en el AutoScaling group |
-   | Balanceador de carga | | |
+   | Balanceador de carga | Se encarga de direccionar a un cliente al servidor web que se encuentre con mayor disponibilidad entre los que cuentan con el mismo contenido.| Se utilizó la herramienta de EC2  "Load Balancers" para crear las necesarias para la realización del proyecto |
    | Crecimiento Horizontal | | |
    | Disponibilidad en capa de servicios | | |
    | Disponibilidad en capa de persistencia | | |
