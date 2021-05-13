@@ -9,7 +9,7 @@
 - Juan David Pérez Sotelo
 
 ## 2. Roles: 
-- Juan Felipe Londoño Gaviria - Escalabilidad
+- Juan Felipe Londoño Gaviria - Rendimiento
 - Felipe Ríos López - Disponibilidad
 - Juan David Pérez Sotelo - Seguridad
 
@@ -25,9 +25,12 @@
 
 ### - B. Requisitos no Funcionales: 
 
+   - Disponibilidad: 
+   
    | Requisito | Descripcion | Implementacion |
    |------------|-------------|----------------|
-   | | | |
-   | | | |
-   | | | |
-
+   | Sistema de monitoreo | CloudWatch | Se configura la opción en el AutoScaling group |
+   | Balanceador de carga | | |
+   | Crecimiento Horizontal | | |
+   | Disponibilidad en capa de servicios | | |
+   | Disponibilidad en capa de persistencia | | |
