@@ -69,4 +69,5 @@
 
    ### - B. Patrones de Arquitectura:
    
-   -
+   - Arquitectura en Capas
+   
