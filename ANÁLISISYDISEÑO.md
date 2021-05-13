@@ -40,5 +40,5 @@
    |------------|-------------|----------------|
    | Tiempo de respuesta | | |
    | Concurrencia | | |
-   | CDN & Caching | | |
+   | CDN & Caching | Es una plataforma de servidores altamente distribuida que ayuda a minimizar los retrasos en la carga de contenidos de páginas web al reducir la distancia física entre el servidor y el usuario. | Se delegó el manejo de servicios del DNS desde el Freenom hasta el CloudFlare |
    | EFS | Amazon Elastic File System básicamente es un servicio de almacenamiento en la nube proporcionado por Amazon Web Services diseñado para proporcionar almacenamiento escalable, elástico, concurrente con algunas restricciones | Se creó la instancia del servicio EFS de Amazon y se montó a los servidores Vía IP |
