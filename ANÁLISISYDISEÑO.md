@@ -29,8 +29,8 @@
    
    | Requisito | Descripcion | Implementacion |
    |------------|-------------|----------------|
-   | Sistema de monitoreo | Se utilizó CloudWatch para la implementación del sistema de monitoreo y se encarga de recopilar los datos con el cual se revisan los recursos que están corriendo | Se configura la opción en el AutoScaling group |
+   | Sistema de monitoreo | Se encarga de recopilar los datos con el cual se revisan los recursos que están corriendo | Se utilizó CloudWatch para la implementación del sistema de monitoreo y se configura la opción en el AutoScaling group |
    | Balanceador de carga | Se encarga de direccionar a un cliente al servidor web que se encuentre con mayor disponibilidad entre los que cuentan con el mismo contenido.| Se utilizó la herramienta de EC2  "Load Balancers" para crear las necesarias para la realización del proyecto |
-   | Crecimiento Horizontal | | |
-   | Disponibilidad en capa de servicios | | |
+   | Crecimiento Horizontal de Servidores | Dos zonas de Disponibilidad A - B| Se tiene un AutoScaling group que tiene mínimo 2 servidores, máximo 3, y con capacidad de CPU del 60%|
+   | Disponibilidad en capa de servicios | Sirve para la conversión de las direcciones de red (NAT) para permitir a las instancias de la subred privada conectarse a Internet o a otros servicios | Se creó una imagen NAT de AMI de la comunidad para proveer este servicio |
    | Disponibilidad en capa de persistencia | | |
