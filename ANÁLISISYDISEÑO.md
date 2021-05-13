@@ -33,3 +33,12 @@
    | Balanceador de carga | Se encarga de direccionar a un cliente al servidor web que se encuentre con mayor disponibilidad entre los que cuentan con el mismo contenido.| Se utilizó la herramienta de EC2  "Load Balancers" para crear las necesarias para la realización del proyecto |
    | Crecimiento Horizontal de Servidores | Dos zonas de Disponibilidad A - B| Se tiene un AutoScaling group que tiene mínimo 2 servidores, máximo 3, y con capacidad de CPU del 60%|
    | Disponibilidad en capa de servicios | Sirve para la conversión de las direcciones de red (NAT) para permitir a las instancias de la subred privada conectarse a Internet o a otros servicios | Se creó una imagen NAT de AMI de la comunidad para proveer este servicio |
+   
+   - Rendimiento:
+     
+   | Requisito | Descripcion | Implementacion |
+   |------------|-------------|----------------|
+   | Tiempo de respuesta | | |
+   | Concurrencia | | |
+   | CDN & Caching | | |
+   | EFS | Amazon Elastic File System básicamente es un servicio de almacenamiento en la nube proporcionado por Amazon Web Services diseñado para proporcionar almacenamiento escalable, elástico, concurrente con algunas restricciones | Se creó la instancia del servicio EFS de Amazon y se montó a los servidores Vía IP |
