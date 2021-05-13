@@ -1,8 +1,6 @@
-# DOCUMENTACIÓN DE LA FASE DE ANÁLISIS Y DISEÑO
-
 # PROYECTO 2 - TOPICOS DE TELEMATICA
 
-
+## DOCUMENTACIÓN DE LA FASE DE ANÁLISIS Y DISEÑO
 
 ## 1. Integrantes del Proyecto:
 - Juan Felipe Londoño Gaviria
