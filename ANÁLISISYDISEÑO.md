@@ -29,7 +29,7 @@
    
    | Requisito | Descripcion | Implementacion |
    |------------|-------------|----------------|
-   | Sistema de monitoreo | CloudWatch | Se configura la opción en el AutoScaling group |
+   | Sistema de monitoreo | Se utilizó CloudWatch para la implementación del sistema de monitoreo y se encarga de recopilar los datos con el cual se revisan los recursos que están corriendo | Se configura la opción en el AutoScaling group |
    | Balanceador de carga | | |
    | Crecimiento Horizontal | | |
    | Disponibilidad en capa de servicios | | |
