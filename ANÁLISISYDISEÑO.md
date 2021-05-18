@@ -15,15 +15,7 @@
 
 ## 3. Requisitos: 
 
-### -  A. Requisitos Funcionales: 
-  
-   | Requisito | Descripcion | Implementacion |
-   |------------|-------------|----------------|
-   | | | |
-   | | | |
-   | | | |
-
-### - B. Requisitos no Funcionales: 
+### - A. Requisitos no Funcionales: 
 
    - Disponibilidad: 
    
@@ -74,5 +66,5 @@
 
   ## 5. Prueba de Disponibilidad
   
-  ![Prueba](https://imgur.com/eX6rsgO)
+  ![DISPONIBILIDAD](https://imgur.com/eX6rsgO)
    
