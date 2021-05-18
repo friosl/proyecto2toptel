@@ -818,7 +818,7 @@ volumes:
 wordpress:
 
 Nota: Debe actualizarse el valor el valor de dns-url-rds al real de la base de datos MySQL del anterior numeral (4.10)
-
+![](documentacion/Aspose.Words.14d04a4b-8e63-451d-ab08-205d0e9c81ee.002.png)
 ## **Credenciales SSL**
 
 sudo amazon-linux-extras install epel -y
