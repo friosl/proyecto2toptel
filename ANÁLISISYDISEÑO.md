@@ -70,4 +70,9 @@
    ### - B. Patrones de Arquitectura:
    
    - Arquitectura en Capas (Las tres fundamentales serían: Capa de Negocio, Capa de Vista, Capa de Base de Datos)
+
+
+  ## 5. Prueba de Disponibilidad
+  
+  ![Prueba](blob:https://web.whatsapp.com/1fc31377-f201-48ad-9c6a-e27a0d724357)
    
