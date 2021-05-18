@@ -70,7 +70,19 @@
    ### - B. Patrones de Arquitectura:
    
    - Arquitectura en Capas (Las tres fundamentales serían: Capa de Negocio, Capa de Vista, Capa de Base de Datos)
+   - Arquitectura orientada a servicios (Puesto que consumimos un montón de servicios de AWS con el fin de resolver un objetivo en común)
 
+
+   ### - C. Selección de Tácticas:
+
+   - Stateless
+   - Compresión de Archivos
+   - Red de Distribución contenidos (CDN)
+
+
+   ### - D. Mejores Prácticas:
+   
+   - 
 
   ## 5. Prueba de Disponibilidad
   
