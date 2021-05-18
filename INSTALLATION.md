@@ -870,14 +870,14 @@ Al entrar a cloudflare y poner nuestro cname, cloudflare nos pide que eliminemos
 
 Configuración de server en freenom
 
-![](Aspose.Words.14d04a4b-8e63-451d-ab08-205d0e9c81ee.005.png)
+![](documentacion/Aspose.Words.14d04a4b-8e63-451d-ab08-205d0e9c81ee.005.png)
 
 
 *Figura  SEQ Figura \\* ARABIC 6*
 
 Configuración de dns en cloudFlare
 
-![](Aspose.Words.14d04a4b-8e63-451d-ab08-205d0e9c81ee.006.png)
+![](documentacion/Aspose.Words.14d04a4b-8e63-451d-ab08-205d0e9c81ee.006.png)
 
 
 ## **Plugins de wordpress** 
