@@ -835,13 +835,8 @@ volumes:
 
 wordpress:
 
-Nota: Actualice el valor de dns-url-rds al real de la base de datos MySQL del anterior numeral (4.10)
+Nota: Debe actualizarse el valor el valor de dns-url-rds al real de la base de datos MySQL del anterior numeral (4.10)
 
-*Figura  SEQ Figura \\* ARABIC 2*
-
-Endpoint 
-
-![](Aspose.Words.14d04a4b-8e63-451d-ab08-205d0e9c81ee.002.png)
 ## **Credenciales SSL**
 
 sudo amazon-linux-extras install epel -y
@@ -861,43 +856,37 @@ Create a config file sudo mkdir /etc/nginx/sites-available
 Open the file sudo nano/etc/nginx/sites-available/reto1toptel.ml
 
 server {
-`  `listen 80;
-`  `listen [::]:80;
-`  `server\_name \*.**reto1toptel.ml**;
-`  `return 301 [https://$host$request_uri]();
+  listen 80;
+  listen [::]:80;
+  server\_name \*.**reto1toptel.ml**;
+  return 301 [https://$host$request_uri]();
 }server {
-`  `listen 443 ssl;
-`  `server\_name \*.**reto1toptel.ml**;  ssl\_certificate /etc/letsencrypt/live/ **reto1toptel.ml** fullchain.pem;
-`  `ssl\_certificate\_key /etc/letsencrypt/live/ **reto1toptel.ml** /privkey.pem;
-`  `include /etc/letsencrypt/options-ssl-nginx.conf;
-`  `ssl\_dhparam /etc/letsencrypt/ssl-dhparams.pem;  root /var/www/**example.com**;
-`  `index index.html;
-`  `location / {
-`    `try\_files $uri $uri/ =404;
-`  `}
+  listen 443 ssl;
+  server\_name \*.**reto1toptel.ml**;  ssl\_certificate /etc/letsencrypt/live/ **reto1toptel.ml** fullchain.pem;
+  ssl\_certificate\_key /etc/letsencrypt/live/ **reto1toptel.ml** /privkey.pem;
+  include /etc/letsencrypt/options-ssl-nginx.conf;
+  ssl\_dhparam /etc/letsencrypt/ssl-dhparams.pem;  root /var/www/**example.com**;
+  index index.html;
+  location / {
+  try\_files $uri $uri/ =404;
+}
 }
 
 sudo service reload nginx
 
 En el listener de load balanced se importa las claves de wild card
 
-*Figura  SEQ Figura \\* ARABIC 3*
-
 Add listener
 
 ![](Aspose.Words.14d04a4b-8e63-451d-ab08-205d0e9c81ee.003.png)
 
-
-*Figura  SEQ Figura \\* ARABIC 4*
-
-Add listernet
+Add listener
 
 ![](Aspose.Words.14d04a4b-8e63-451d-ab08-205d0e9c81ee.004.png)
 ## **Configurar cloudflare con nuestro cname de freenom** 
 
 Al entrar a cloudflare y poner nuestro cname, cloudflare nos pide que eliminemos los server default de freenom y pongamos los de cloudflare quedando así:
 
-*Figura  SEQ Figura \\* ARABIC 5*
 
 Configuración de server en freenom
 
@@ -944,7 +933,4 @@ Este plugin nos permite subir contenido a nuestro grupo, como fotos y videos, au
 # **Bibliografía**
 #
 ADDIN Mendeley Bibliography CSL\_BIBLIOGRAPHY [1]	K. JUEll, “Cómo instalar WordPress con Docker Compose | DigitalOcean,” Jan. 09, 2020. https://www.digitalocean.com/community/tutorials/how-to-install-wordpress-with-docker-compose-es (accessed Apr. 17, 2021).
-# ** 
-||||
-| :- | :-: | -: |
 
