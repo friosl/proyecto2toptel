@@ -66,5 +66,5 @@
 
   ## 5. Prueba de Disponibilidad
   
-  ![DISPONIBILIDAD](https://imgur.com/eX6rsgO)
+  ![DISPONIBILIDAD](https://i.imgur.com/eX6rsgO.jpeg)
    
