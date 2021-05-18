@@ -9,52 +9,7 @@
 - Felipe Ríos López
 - Juan David Pérez Sotelo
 
-## Instalación:
-# Contenido TOC 
-[**Proyecto N°** **2**](#_Toc71756676)
-
-
-[Creación de vpc y configuración	 ](#_Toc71756684)
-
-[Creación de las subredes y configuración	 ](#_Toc71756685)
-
-[Crear y configurar el Internet Gateway.	 ](#_Toc71756686)
-
-[Security Group para los NATs Instance.	 ](#_Toc71756687)
-
-[Crear las instancias NAT	 ](#_Toc71756688)
-
-[NAT Instance AZ-A:	 ](#_Toc71756689)
-
-[Security groups para Bastion Hosts.	 ](#_Toc71756690)
-
-[Crear las instancias Bastion Hosts	 ](#_Toc71756691)
-
-[Bastion Host AZ-A:	 ](#_Toc71756692)
-
-[Security Group para Tráfico Web	](#_Toc71756693)
-
-[Crear y configurar la instancia del servidor de bases de datos en la subred privada.	](#_Toc71756694)
-
-[Crear el grupo de subred para el servicio RDS.	](#_Toc71756695)
-
-[Crear una instancia de Amazon RDS.	 ](#_Toc71756696)
-
-[Crear y configurar el sistema de archivos compartidos EFS	](#_Toc71756697)
-
-[Crear y configurar la Instancia del Servidor Web Wordpress	 ](#_Toc71756698)
-
-[Instalación de docker compose	](#_Toc71756699)
-
-[Credenciales SSL	 ](#_Toc71756700)
-
-[Configurar cloudflare con nuestro cname de freenom	 ](#_Toc71756701)
-
-[Bibliografía	 ](#_Toc71756702)
-
-
-
-#
+# Instalación:
 
 ## **Creación de vpc y configuración** 
 
