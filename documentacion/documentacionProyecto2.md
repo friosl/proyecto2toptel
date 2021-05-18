@@ -28,60 +28,48 @@
 **18 De mayo de 2020**
 
 
-# Contenido TOC \o "1-3" \h \z \u 
-[**Proyecto N°** **2**	 PAGEREF _Toc71756676 \h 1](#_Toc71756676)
-
-[Figuras	 PAGEREF _Toc71756683 \h 2](#_Toc71756683)
-
-[Creación de vpc y configuración	 PAGEREF _Toc71756684 \h 3](#_Toc71756684)
-
-[Creación de las subredes y configuración	 PAGEREF _Toc71756685 \h 3](#_Toc71756685)
-
-[Crear y configurar el Internet Gateway.	 PAGEREF _Toc71756686 \h 4](#_Toc71756686)
-
-[Security Group para los NATs Instance.	 PAGEREF _Toc71756687 \h 5](#_Toc71756687)
-
-[Crear las instancias NAT	 PAGEREF _Toc71756688 \h 6](#_Toc71756688)
-
-[NAT Instance AZ-A:	 PAGEREF _Toc71756689 \h 6](#_Toc71756689)
-
-[Security groups para Bastion Hosts.	 PAGEREF _Toc71756690 \h 10](#_Toc71756690)
-
-[Crear las instancias Bastion Hosts	 PAGEREF _Toc71756691 \h 11](#_Toc71756691)
-
-[Bastion Host AZ-A:	 PAGEREF _Toc71756692 \h 11](#_Toc71756692)
-
-[Security Group para Tráfico Web	 PAGEREF _Toc71756693 \h 13](#_Toc71756693)
-
-[Crear y configurar la instancia del servidor de bases de datos en la subred privada.	 PAGEREF _Toc71756694 \h 15](#_Toc71756694)
-
-[Crear el grupo de subred para el servicio RDS.	 PAGEREF _Toc71756695 \h 15](#_Toc71756695)
-
-[Crear una instancia de Amazon RDS.	 PAGEREF _Toc71756696 \h 16](#_Toc71756696)
-
-[Crear y configurar el sistema de archivos compartidos EFS	 PAGEREF _Toc71756697 \h 18](#_Toc71756697)
-
-[Crear y configurar la Instancia del Servidor Web Wordpress	 PAGEREF _Toc71756698 \h 19](#_Toc71756698)
-
-[Instalación de docker compose	 PAGEREF _Toc71756699 \h 20](#_Toc71756699)
-
-[Credenciales SSL	 PAGEREF _Toc71756700 \h 21](#_Toc71756700)
-
-[Configurar cloudflare con nuestro cname de freenom	 PAGEREF _Toc71756701 \h 24](#_Toc71756701)
-
-[Bibliografía	 PAGEREF _Toc71756702 \h 25](#_Toc71756702)
+# Contenido TOC 
+[**Proyecto N°** **2**](#_Toc71756676)
 
 
-# **Figuras**
-TOC \h \z \c "Figura"[Figura 2	 PAGEREF _Toc71756703 \h 21](#_Toc71756703)
+[Creación de vpc y configuración	 ](#_Toc71756684)
 
-[Figura 3	 PAGEREF _Toc71756704 \h 22](#_Toc71756704)
+[Creación de las subredes y configuración	 ](#_Toc71756685)
 
-[Figura 4	 PAGEREF _Toc71756705 \h 23](#_Toc71756705)
+[Crear y configurar el Internet Gateway.	 ](#_Toc71756686)
 
-[Figura 5	 PAGEREF _Toc71756706 \h 23](#_Toc71756706)
+[Security Group para los NATs Instance.	 ](#_Toc71756687)
 
-[Figura 6	 PAGEREF _Toc71756707 \h 24](#_Toc71756707)
+[Crear las instancias NAT	 ](#_Toc71756688)
+
+[NAT Instance AZ-A:	 ](#_Toc71756689)
+
+[Security groups para Bastion Hosts.	 ](#_Toc71756690)
+
+[Crear las instancias Bastion Hosts	 ](#_Toc71756691)
+
+[Bastion Host AZ-A:	 ](#_Toc71756692)
+
+[Security Group para Tráfico Web	](#_Toc71756693)
+
+[Crear y configurar la instancia del servidor de bases de datos en la subred privada.	](#_Toc71756694)
+
+[Crear el grupo de subred para el servicio RDS.	](#_Toc71756695)
+
+[Crear una instancia de Amazon RDS.	 ](#_Toc71756696)
+
+[Crear y configurar el sistema de archivos compartidos EFS	](#_Toc71756697)
+
+[Crear y configurar la Instancia del Servidor Web Wordpress	 ](#_Toc71756698)
+
+[Instalación de docker compose	](#_Toc71756699)
+
+[Credenciales SSL	 ](#_Toc71756700)
+
+[Configurar cloudflare con nuestro cname de freenom	 ](#_Toc71756701)
+
+[Bibliografía	 ](#_Toc71756702)
+
 
 
 #
