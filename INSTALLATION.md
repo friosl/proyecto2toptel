@@ -2,7 +2,7 @@
 | :- | :- | -: | 
 # PROYECTO 2 - TOPICOS DE TELEMATICA 
 ## DOCUMENTACIÓN DE LA FASE DE INSTALACIÓN
-### SITIO WEB: https://www.reto1toptel.ml
+### SITIO WEB: https://www.certificado2.ml
 
 ## Integrantes del Proyecto:
 - Juan Felipe Londoño Gaviria
