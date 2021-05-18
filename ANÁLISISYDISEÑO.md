@@ -48,15 +48,23 @@
    
    ### - A. Herramientas utilizadas:
     
-   - Servidor DNS - CloudFlare y Freenom
+   - Servidor DNS - CloudFlare y Freenom: Cloudflare actúa como intermediaria entre el cliente y el servidor, usando unos sistemas llamados proxies reversos (reverse proxies) para crear copias espejo y cachés de sitios web, mientras que Freenom es el proovedor del dominio .ml
+   
    - CDN - CoudFlare
-   - Balanceador de Cargas - AWS Load Balancer
-   - Base de Datos - AWS RDS
-   - Instacias de servidor Web & Bastion - AWS EC2 AMI Linux 2
-   - Sistema de archivos - AWS EFS
-   - Despliegue automatico para tolerancia a fallos - AWS AutoScaling
-   - Manejo de redes y subredes - AWS VPC & Security Groups
-   - Sistema de Monitoreo - CloudWatch
+   
+   - Balanceador de Cargas - AWS Load Balancer: Elastic Load Balancing ofrece la capacidad para balancear cargas entre recursos locales y de AWS con un único balanceador de carga. Puede lograr esto al registrar todos sus recursos en el mismo grupo de destino y asociar dicho grupo con un balanceador de carga.
+  
+  - Base de Datos - AWS RDS:  El servicio suministra capacidad rentable y escalable al mismo tiempo que automatiza las arduas tareas administrativas, como el aprovisionamiento de hardware, la configuración de bases de datos, la implementación de parches y la creación de copias de seguridad. Lo libera de estas tareas para que pueda concentrarse en sus aplicaciones y darles el rendimiento rápido, la alta disponibilidad, la seguridad y la compatibilidad que necesitan.
+   
+   - Instacias de servidor Web & Bastion - AWS EC2 AMI Linux 2: Una instancia es un servidor virtual en la nube de AWS. Con Amazon EC2, puede instalar y configurar el sistema operativo y las aplicaciones que se ejecutan en la instancia.
+   
+   - Sistema de archivos - AWS EFS: Es un sistema de archivos elástico, sencillo, sin servidor, con posibilidad de establecer y olvidar y que permite compartir datos de archivos sin necesidad de aprovisionar o administrar el almacenamiento. Se puede utilizar con los servicios en la nube de AWS y con los recursos en las instalaciones y está diseñado para escalar bajo demanda a petabytes sin interrumpir las aplicaciones.
+   
+   - Despliegue automatico para tolerancia a fallos - AWS AutoScaling: AWS Auto Scaling le permite crear planes de escalado que automatizan la manera en la que diferentes recursos responden ante los cambios que se producen en la demanda
+   
+   - Manejo de redes y subredes - AWS VPC & Security Groups: Los security groups son grupos de seguridad que funcionan como un firewall virtual para las instancias EC2 para controlar el tráfico entrante y saliente y el VPC es un servicio que permite lanzar recursos de AWS en una red virtual aislada de forma lógica que usted defina. Puede controlar todos los aspectos del entorno de red virtual, como la selección de su propio rango de direcciones IP, la creación de subredes y la configuración de tablas de enrutamiento y gateways de red.
+   
+   - Sistema de Monitoreo - CloudWatch: Es un servicio que recopila datos de monitorización y operaciones en formato de registros, métricas y eventos, y permite su visualización mediante paneles automatizados para obtener una vista unificada de los recursos, las aplicaciones y los servicios de AWS que se ejecutan en servidores locales y de AWS.
 
 
    ### - B. Patrones de Arquitectura:
