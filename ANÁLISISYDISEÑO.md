@@ -74,5 +74,5 @@
 
   ## 5. Prueba de Disponibilidad
   
-  ![Prueba](blob:https://web.whatsapp.com/1fc31377-f201-48ad-9c6a-e27a0d724357)
+  ![Prueba](https://imgur.com/eX6rsgO)
    
