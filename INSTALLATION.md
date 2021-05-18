@@ -858,11 +858,11 @@ En el listener de load balanced se importa las claves de wild card
 
 Add listener
 
-![](Aspose.Words.14d04a4b-8e63-451d-ab08-205d0e9c81ee.003.png)
+![](documentacion/Aspose.Words.14d04a4b-8e63-451d-ab08-205d0e9c81ee.003.png)
 
 Add listener
 
-![](Aspose.Words.14d04a4b-8e63-451d-ab08-205d0e9c81ee.004.png)
+![](documentacion/Aspose.Words.14d04a4b-8e63-451d-ab08-205d0e9c81ee.004.png)
 ## **Configurar cloudflare con nuestro cname de freenom** 
 
 Al entrar a cloudflare y poner nuestro cname, cloudflare nos pide que eliminemos los server default de freenom y pongamos los de cloudflare quedando así:
