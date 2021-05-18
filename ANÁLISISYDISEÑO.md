@@ -82,7 +82,13 @@
 
    ### - D. Mejores Prácticas:
    
-   - 
+   - Tomar en cuenta la teoría de colores para la parte estética. 
+   - Reducir la cantidad de clicks para realizar una acción.
+   - Tener redundancia en los datos
+   - Usar CDN para mayor cobertura en diferentes zonas
+   - Multiplicar el servicio de base de datos en múltiples zonas por la disponibilidad 
+   - Crear servidores de archivos en caché 
+   - Encriptar mensajes que envía internamente la página
 
   ## 5. Prueba de Disponibilidad
   
